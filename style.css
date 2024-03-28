@@ -1,0 +1,159 @@
+.top{
+    color: green;
+    
+}
+body{
+    margin-left: 10%;
+}
+.container1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.elevate{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.elevateevery{
+    font-size: 170%;
+    font-weight: bold;
+}
+.contact{
+   filter: blur();
+}
+.india{
+    text-align: center;
+    font-size: 170%;
+}
+.rasi{
+    color: green;
+}
+.timeline{
+    font-size: 155%;
+}
+.timelessartistry{
+    display: flex;
+    gap: 20%;
+    
+}
+.prem{
+    background-color: lightblue;
+    display: flex;
+    gap: 10%;
+}
+.rasiaaray{
+    text-align: center;
+}
+.threeimgs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.logos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.logo{
+    display: flex;
+    gap:8px;
+  
+}
+.high{
+    display: flex;
+    gap: 3%;
+}
+.puma{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+.puma img{
+    width: 62%;
+}
+.kil{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.reach{
+    text-align: center;
+}
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.traditional{
+    font-weight: bold;
+}
+.trend{
+    color: grey;
+}
+.client{
+    font-weight: bold;
+    font-size: 135%;
+    text-align: center;
+}
+.discover{
+    text-align: center;
+}
+.higher{
+    font-weight: bold;
+}
+.incredible{
+    color: gray;
+}
+.showcase{
+    text-align: center;
+}
+.case{
+    font-weight: bold;
+    font-size: 175%;
+}
+.explore{
+    color: gray;
+}
+.reacher{
+    font-size: 195%;
+}
+.best{
+    background-color: #253036;
+    display: flex;
+    list-style-type: none;
+    gap: 5%;
+
+}
+@media  (min-width: 375px) and (max-width:435px){
+    .timelessartistry{
+        display: block;
+    }
+    .timel img{
+        width: 86%;
+    }
+    .prem{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .threeimgs{
+        display: block;
+    }
+    .logo{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .high{
+        display: block;
+    }
+    .pillow{
+        width: 63%;
+    }
+    .kil{
+        display: block;
+    }
+}
